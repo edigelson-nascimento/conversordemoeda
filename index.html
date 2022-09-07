@@ -156,8 +156,8 @@ li {
 <body>
    <center><input type="number" id="caixamsg" rows="3" cols="20" placeholder="Digite o valor aqui"></input></div>
 </center>
+   <center><input id="valor" rows="3" cols="20"></input></div>
 
-<h3 id="valor"></h3>
    <center><section class="caixa">
 
 <br>
@@ -182,13 +182,16 @@ li {
        
        var valorEmDolar = (valor) * 5.25
        
-       var valor = valor + " Doll convertido no Real é $" + valorEmDolar;
-       converter.innerHTML = valor + " Reais"
+       var valor = valorEmDolar;
+       converter.value = valor + " Reais"
      }
      // Função Limpar //
     function Limpar() {
+      limparCampo=valor
+      limparCampo.select()
+      document.execCommand("Delete")
       limparCampo=caixamsg
-      limparCampo.select(valor)
+      limparCampo.select()
       document.execCommand("Delete")
     }
     
