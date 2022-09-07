@@ -174,15 +174,15 @@ li {
    <script>
    // Setar ID //
        var converter = document.getElementById("valor")
-       var valorDola = document.getElementById("caixamsg");
+       var valorBtc = document.getElementById("caixamsg");
    // Função de Converter //
      function Converter() {
-       var valor = valorDola.value;
-       var valorEmDolar = parseFloat(valor);
+       var valor = valorBtc.value;
+       var valorEmBtc = parseFloat(valor);
        
-       var valorEmDolar = (valor) *102033.41
+       var valorEmBtc = (valor) *102033.41
        
-       var valor = valorEmDolar;
+       var valor = valorEmBtc;
        converter.value = "R$ " + valor
      }
      // Função Limpar //
