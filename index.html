@@ -173,19 +173,20 @@ li {
    </section></center>
  
    <script>
-   
-     function Converter() {
+   // Setar ID //
+       var converter = document.getElementById("valor")
        var valorDola = document.getElementById("caixamsg");
+   // Função de Converter //
+     function Converter() {
        var valor = valorDola.value;
        var valorEmDolar = parseFloat(valor);
        
        var valorEmDolar = (valor) * 5.25
        
-       var converter = document.getElementById("valor")
        var valor = valor + " Doll convertido no Real é $" + valorEmDolar;
        converter.innerHTML = valor + " Reais"
      }
-     
+     // Função Limpar //
     function Limpar() {
       limparCampo=caixamsg
       limparCampo.select(valor)
