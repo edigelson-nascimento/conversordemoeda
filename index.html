@@ -156,7 +156,7 @@ li {
 <body>
    <center><input type="number" id="caixamsg" rows="3" cols="20" placeholder="Digite o valor aqui"></input></div>
 </center>
-   <center><input id="valor" rows="3" cols="20"></input></div>
+   <center><input id="valor" name="quantity" min="0.01" step="0.01" rows="3" cols="20"></input></div>
 
    <center><section class="caixa">
 
@@ -175,16 +175,18 @@ li {
    // Setar ID //
        var converter = document.getElementById("valor")
        var valorBtc = document.getElementById("caixamsg");
+       
    // Função de Converter //
      function Converter() {
        var valor = valorBtc.value;
        var valorEmBtc = parseFloat(valor);
        
-       var valorEmBtc = (valor) *102033.41
+       var valorEmBtc = valor * 102033.41
        
        var valor = valorEmBtc;
-       converter.value = "R$ " + valor
+       converter.value = "R$ " + Math.floor(valor)
      }
+  
      // Função Limpar //
     function Limpar() {
       limparCampo=valor
@@ -194,9 +196,9 @@ li {
       limparCampo.select()
       document.execCommand("Delete")
     }
-    
-   </script>
-   
+ 
+  </script>
+ 
   <div class="conteiner">
    <div class="badge">
 <h4><p>🏆 • Conquista do Challenge</p>
