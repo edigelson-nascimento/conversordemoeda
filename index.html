@@ -181,10 +181,10 @@ li {
        var valor = valorBtc.value;
        var valorEmBtc = parseFloat(valor);
        
-       var valorEmBtc = valor * 102033.41
+       var valorEmBtc = valor * 10203341
        
        var valor = valorEmBtc;
-       converter.value = "R$ " + Math.floor(valor)
+       converter.value = "R$ " + valor.toLocaleString('pt-BR')
      }
   
      // Função Limpar //
