@@ -110,10 +110,6 @@ li {
    }
  
  @media screen and (max-width: 480px) {
-   
-  .badge {
-    margin-top: 200px;
-   }
     
    #botao, #limpar {
       width: 300px;
@@ -174,7 +170,7 @@ li {
    <script>
    // Setar ID //
        var converter = document.getElementById("valor")
-       var valorBtc = document.getElementById("caixamsg");
+       var valorBtc = document.getElementById("caixamsg")
        
    // Função de Converter //
      function Converter() {
@@ -183,7 +179,7 @@ li {
        
        var valorEmBtc = valor * 102033.41
        
-       var valor = valorEmBtc;
+       var valor = valorEmBtc
        converter.value = "R$ " + valor.toLocaleString('pt-BR')
      }
   
@@ -200,11 +196,9 @@ li {
   </script>
  
   <div class="conteiner">
-   <div class="badge">
-<h4><p>🏆 • Conquista do Challenge</p>
-   <img src="https://d335luupugsy2.cloudfront.net/cms/files/10224/1659456841/$feudvsuyb2d" alt="alura" width="300px" height="300px"/></h4>
+  
   </div>
-  </div>
+  
   <footer><!-- Créditos -->
    <h4><img src="https://edigelsonnascimento.com.br/logo.png" alt="Edigelson Nascimento" width="30px" height="30px"/>
   <p>Copyright © 2022 by Edigelson Nascimento.</p></h4>
