@@ -4,7 +4,7 @@ Este é um projeto de conversão de moeda desenvolvido por Edigelson Nascimento.
 
 ## Descrição
 
-O Conversor de Moeda permite converter valores entre Bitcoin (BTC) e Real (BRL). A cotação do BTC utilizada é a mais recente disponível.
+O Conversor de Moeda permite converter valores entre Bitcoin (BTC) e Real (BRL). A cotação do BTC utilizada é ilustrativa.
 
 ## Funcionalidades
 
