@@ -23,9 +23,10 @@ O Conversor de Moeda permite converter valores entre Bitcoin (BTC) e Real (BRL).
 2. Clique no botão **Converter** para ver o valor correspondente em BRL na segunda caixa de texto.
 3. Utilize o botão **Limpar** para limpar os valores das caixas de texto.
 
-## Autor
+## Créditos
+![Logo](./img/logo.png)
 
-Edigelson Nascimento - Desenvolvedor Front-End
+&copy; 2022 - 2024 Edigelson Nascimento. Todos os direitos reservados. **Este site foi desenvolvido com ❤️ por Edigelson Nascimento**
 
 ## Licença
 
