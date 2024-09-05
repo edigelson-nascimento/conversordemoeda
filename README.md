@@ -36,4 +36,4 @@ Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](./LICE
 
 - Email: edigelsonnascimento@hotmail.com
 - LinkedIn: [Edigelson Nascimento](https://www.linkedin.com/in/edigelson-nascimento)
-- Portfólio: [edigelson-nascimento.github.io/portfolio](https://edigelson-nascimento.github.io/portfolio)
+- Portfólio: [edigelson-nascimento.github.io](https://edigelson-nascimento.github.io)
